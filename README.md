@@ -1,9 +1,61 @@
 # Official Kris Nóva Brand
 
-Safety third.
+<p align="center"><img src="/assets/logo/Nivenly_2.png" width="340"></p>
 
-First you have to look good.
+### Using in HTML
 
-Second you have to feel good.
+```html
+  <link rel="stylesheet" href="https://raw.githubusercontent.com/kris-nova/brand/main/nova.css" />
+```
 
-Third is safety.
+### Colors
+
+| Color       | Hex       |
+|-------------|-----------|
+| gray-blue   | `#6f88a2` |
+| lite-blue   | `#96c3f1` |
+| green       | `#619d87` |
+| black       | `#000000` |
+| darker-gray | `#1A1616` |
+| dark-gray   | `#222222` |
+| lite-gray   | `#666666` |
+
+### Color CSS
+
+```css
+
+/* Nóva Colors */
+
+.gray-blue {
+    color: #6f88a2;
+}
+
+.lite-blue {
+    color: #96c3f1;
+}
+
+.green {
+    color: #619d87;
+}
+
+.black {
+    color: #000000;
+}
+
+.darker-gray {
+    color: #1A1616;
+}
+
+.dark-gray {
+    color: #222222;
+}
+
+.lite-gray {
+    color: #666666;
+}
+
+```
+
+
+
+
