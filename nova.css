@@ -654,13 +654,3 @@ img {
     margin-right: auto;
     max-width: 100%
 }
-
-img.center,
-img.left {
-    margin-right: auto
-}
-
-img.center,
-img.right {
-    margin-left: auto
-}
