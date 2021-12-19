@@ -112,7 +112,7 @@ a:hover {
     flex-direction: column;
     flex: 1 auto;
     align-items: center;
-    margin: 50px 0
+    margin: 50px auto 80px;
 }
 
 @media (max-width:683px) {
@@ -223,6 +223,7 @@ a:link {
 @media (max-width:899px) {
     .content-container {
         max-width: 660px
+        margin: 20px auto 80px;
     }
 }
 
@@ -380,7 +381,7 @@ body {
 
 
 
-.menu__inner {
+.menu-inner {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -391,7 +392,7 @@ body {
 }
 
 @media (max-width:683px) {
-    .menu__inner--desktop {
+    .menu-inner--desktop {
         display: none
     }
 }
@@ -399,12 +400,12 @@ body {
 
 
 
-.menu__inner li {
+.menu-inner li {
     text-align: left;
     flex: 0 0 auto
 }
 
-.menu__inner li:not(:first-of-type) {
+.menu-inner li:not(:first-of-type) {
     margin-left: 20px
 }
 
@@ -459,19 +460,19 @@ body {
     content: attr(data-prompt)
 }
 
-.header__right {
+.header-right {
     display: flex;
     flex-direction: row;
     align-items: center
 }
 
 @media (max-width:683px) {
-    .header__right {
+    .header-right {
         flex-direction: row-reverse
     }
 }
 
-.header__inner {
+.header-inner {
     justify-content: space-between;
     margin: 0 auto;
     width: 100%;
@@ -479,13 +480,13 @@ body {
 
 }
 
-.header__inner,
+.header-inner,
 .theme-toggle {
     display: flex;
     align-items: center
 }
 
-.header__inner,
+.header-inner,
 .sidebar-toggle-left {
     display: flex;
     align-items: center
@@ -509,3 +510,8 @@ body {
     background: var(--color-alt);
 }
 
+
+h1 {
+    font-weight: normal;
+    font-size: 2.6rem;
+}
