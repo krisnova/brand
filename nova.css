@@ -72,6 +72,8 @@
     font-family: Terminus;
     width: 100%;
     max-width: 100%;
+   text-align: center;
+
 }
 
 .main-logo {
@@ -281,6 +283,10 @@ a:link {
     display: flex;
     padding: 12px
 
+}
+
+code {
+    overflow-wrap: break-word;
 }
 
 .code-toolbar .toolbar-item a {
@@ -515,3 +521,128 @@ h1 {
     font-weight: normal;
     font-size: 2.6rem;
 }
+
+.hidden {
+    display: none;
+}
+
+hr {
+    display: block;
+    border: 0;
+    border-top: 1px solid var(--color-alt);
+    width: 100%;
+    height: 1px;
+    margin: 1em 0;
+    padding: 0;
+    box-shadow: var(--color-alt) 0px 0px 8px;
+}
+
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 40px 0;
+    border-radius: 5px
+}
+
+table,
+td,
+th {
+    border: 1px solid;
+    padding: 10px
+}
+
+th {
+    background: #eaeaea;
+    background: var(--background-secondary)
+}
+
+ol,
+ul {
+    margin-left: 40px;
+    padding: 0
+}
+
+@media (max-width:683px) {
+    ol,
+    ul {
+        margin-left: 20px
+    }
+}
+
+ol ol {
+    list-style-type: lower-alpha
+}
+
+
+.side-paragraph {
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Terminus;
+    font-size: 1.0rem;
+    border-bottom: 1px #4a4b50 dotted;
+}
+
+/* SIDE */
+.side {
+    background: #1a1616;
+    font-family: Terminus;
+    font-size: 1.0rem;
+    flex: 0 0 300px;
+}
+.side > table {
+    width: 100%;
+}
+
+@media (max-width:683px) {
+    .main {
+        margin-top: 25px;
+    }
+    .flex-row {
+        flex-direction: column;
+    }
+}
+
+.side-border-left {
+    border-left: #96c3f1 1px solid
+}
+
+.side-border-right {
+    border-right: #96c3f1 1px solid
+}
+
+
+.side-large {
+    background-color: #222222;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    color: #96c3f1;
+    border-bottom: 1px #96c3f1 solid;
+}
+
+.side-paragraph {
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Terminus;
+    font-size: 1.0rem;
+    border-bottom: 1px #4a4b50 dotted;
+}
+
+.side-medium {
+    font-family: Terminus;
+    font-size: 1.5rem;
+}
+
+.flex-row {
+    display: flex;
+}
+
+
+/* ---- */
+
