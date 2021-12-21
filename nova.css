@@ -80,7 +80,7 @@
     padding-top: 20px;
 }
 
-.container {
+.container{
     flex-direction: column;
     font-size: var(--fontSize);
     text-align: center;
@@ -101,7 +101,6 @@ a:hover {
 /* MAIN */
 .container,
 .content {
-    display: flex;
     font-size: var(--fontSize);
     background-color: var(--background);
     justify-content: center;
