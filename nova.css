@@ -113,6 +113,7 @@ a:hover {
     flex-direction: column;
     flex: 1 auto;
     align-items: center;
+    padding: 10px;
     margin: 50px auto 80px;
 }
 
