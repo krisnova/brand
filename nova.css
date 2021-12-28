@@ -114,7 +114,7 @@ a:hover {
     flex: 1 auto;
     align-items: center;
     padding: 10px;
-    margin: 50px auto 80px;
+    margin: 0px auto 80px;
 }
 
 @media (max-width:683px) {
