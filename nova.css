@@ -37,7 +37,7 @@
 }
 
 .color-bg-med {
-    color: #222222;
+    color: #212121;
 }
 
 .color-bg-dark {
@@ -51,11 +51,11 @@
 /* ROOT */
 :root {
     --fontSize: 1.1rem;
-    --background: #222222;
+    --background: #212121;
     --background-secondary: #1A1616;
     --header: #1A1616;
     --color: #96c3f1;
-    --color-secondary: #222222;
+    --color-secondary: #212121;
     --border-color: #dcdcdc;
     --phoneWidth: (max-width:684px);
     --tabletWidth: (max-width:900px);
@@ -130,6 +130,10 @@ a:hover {
 /* ATTRIBUTES */
 .glow {
     text-shadow: var(--color-alt) 0px 0px 8px;
+}
+
+.glow-box {
+    box-shadow: var(--color-alt) 0px 0px 120px;
 }
 
 a:link {
@@ -616,7 +620,7 @@ ol ol {
 
 
 .side-large {
-    background-color: #222222;
+    background-color: #212121;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 1.2em;
