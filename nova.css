@@ -115,6 +115,7 @@ a:hover {
     flex: 1 auto;
     align-items: center;
     padding: 10px;
+    display: inline-block;
     margin: 0px auto 80px;
 }
 
@@ -222,12 +223,12 @@ a:link {
     width: 100%;
     max-width: 800px;
     text-align: left;
-    margin: 20px 20px 80px;
+    margin: auto;
 }
 @media (max-width:899px) {
     .content-container {
         max-width: 800px;
-        margin: 20px auto 80px;
+        margin: auto;
     }
 }
 
@@ -285,6 +286,10 @@ a:link {
     display: flex;
     padding: 12px
 
+}
+
+.post-content {
+    padding-left: 10px;
 }
 
 code {
@@ -527,6 +532,8 @@ body {
 }
 
 .content-item-hz {
+    width: 140px;
+    padding-top: 10px;
 }
 
 
