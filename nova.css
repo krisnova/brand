@@ -48,32 +48,33 @@
     color: #666666;
 }
 
-/* ROOT */
+/**
+ * Main Variables
+ */
 :root {
     --fontSize: 1.1rem;
-    --background: #212121;
-    --background-secondary: #1A1616;
-    --header: #1A1616;
-    --color: #96c3f1;
-    --color-secondary: #212121;
-    --border-color: #dcdcdc;
     --phoneWidth: (max-width:684px);
     --tabletWidth: (max-width:900px);
 
-    /* Prine Vars */
+    /**
+     * Color Scheme
+     */
     --color-base: #6f88a2;
     --color-alt: #619d87;
     --color-highlight: #96c3f1;
+    --color-bg-light: #1A1616;
+    --color-bg-med: #212121;
+    --color-bg-dark: #000000;
+    --color-footer-body: #666666;
 }
 
 .main {
-    background-color: var(--background);
+    background-color: var(--color-bg-med);
     font-size: var(--fontSize);
     font-family: Terminus;
     width: 100%;
     max-width: 100%;
-   text-align: center;
-
+    text-align: center;
 }
 
 .main-logo {
@@ -84,8 +85,8 @@
     flex-direction: column;
     font-size: var(--fontSize);
     text-align: center;
-    color: var(--color);
-    background-color: var(--color-secondary);
+    color: var(--color-highlight);
+    background-color: var(--color-bg-med);
 }
 
 a {
@@ -102,14 +103,14 @@ a:hover {
 .container,
 .content {
     font-size: var(--fontSize);
-    background-color: var(--background);
+    background-color: var(--color-bg-med);
     justify-content: center;
 }
 
 .content {
     font-family: Terminus;
     font-size: var(--fontSize);
-    background-color: var(--background);
+    background-color: var(--color-bg-med);
     flex-direction: column;
     flex: 1 auto;
     align-items: center;
@@ -120,6 +121,7 @@ a:hover {
 @media (max-width:683px) {
     .content {
         margin-top: 0;
+        padding: 10px;
         max-width: 600px;
     }
     .flex-row {
@@ -179,7 +181,7 @@ a:link {
     }
     .menu-alt {
         position: absolute;
-        background: var(--background);
+        background: var(--color-bg-med);
         margin: 0;
         list-style: none;
         border-radius: 5px;
@@ -201,9 +203,6 @@ a:link {
         display: none
     }
 }
-
-/* CSS "What it does" style classes */
-
 .content-h1 {
     font-family: Retro;
     font-size: 1.4rem;
@@ -223,11 +222,11 @@ a:link {
     width: 100%;
     max-width: 800px;
     text-align: left;
-    margin: 20px auto 80px;
+    margin: 20px 20px 80px;
 }
 @media (max-width:899px) {
     .content-container {
-        max-width: 660px
+        max-width: 800px;
         margin: 20px auto 80px;
     }
 }
@@ -282,7 +281,7 @@ a:link {
 .header {
     border-bottom: #96c3f1 1px solid;
     background: #fafafa;
-    background: var(--header);
+    background: var(--color-bg-light);
     display: flex;
     padding: 12px
 
@@ -297,7 +296,7 @@ code {
     padding: 3px 8px;
     margin-bottom: 5px;
     background: #eaeaea;
-    background: var(--background-secondary);
+    background: var(--color-bg-light);
     text-decoration: none;
     text-align: center;
     font-size: 13px;
@@ -332,9 +331,9 @@ body {
     font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
     line-height: 1.54;
     background-color: #fff;
-    background-color: var(--background);
+    background-color: var(--color-bg-med);
     color: #222;
-    color: var(--color);
+    color: var(--color-highlight);
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
@@ -432,7 +431,7 @@ body {
     border-top: #96c3f1 1px solid;
     padding-bottom: 10px;
     background: #1A1616;
-    color: var(--color);
+    color: var(--color-highlight);
     width: 100%;
 }
 
@@ -504,19 +503,30 @@ body {
 .button {
     border: none;
     background: var(--color-base);
-    color: var(--background-secondary);
+    color: var(--color-bg-light);
     padding: 10px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 1.2rem;
     font-family: Terminus;
-    margin: 0px 0px;
+    margin: 10px 0px;
     cursor: pointer;
 }
 
 .button:hover {
     background: var(--color-alt);
+}
+
+.button-container {
+
+}
+
+.content-item-container {
+
+}
+
+.content-item-hz {
 }
 
 
@@ -558,7 +568,7 @@ th {
 
 th {
     background: #eaeaea;
-    background: var(--background-secondary)
+    background: var(--color-bg-light)
 }
 
 ol,
@@ -657,3 +667,5 @@ img {
     margin-right: auto;
     max-width: 100%
 }
+
+
