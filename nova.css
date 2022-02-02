@@ -105,6 +105,7 @@ a:hover {
     font-size: var(--fontSize);
     background-color: var(--color-bg-med);
     justify-content: center;
+    height: 1200px;
 }
 
 .content {
