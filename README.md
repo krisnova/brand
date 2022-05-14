@@ -2,6 +2,14 @@
 
 <p align="center"><img src="/assets/logo/Nivenly_2.png" width="340"></p>
 
+# Fonts
+
+The preferred font is the [terminus](https://github.com/Swordfish90/cool-retro-term/tree/master/app/qml/fonts/modern-terminus) font. I use this font for my terminal, my websites, and for publishing my books.
+
+My seconday font is the [white rabbit](https://www.cufonfonts.com/font/white-rabbit-2) font. I use this font for my presentations, my IDE, and misc other use cases.  
+
+
+
 ### Using in HTML
 
 ```html
